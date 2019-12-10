@@ -1,0 +1,15 @@
+var img;
+function preload(){
+  img = loadImage("Pic1.png");
+  img2 = loadImage("Pic2.gif");
+}
+function setup() {
+  createCanvas(400, 400);
+   
+}
+
+function draw() {
+  background(100,5,50);
+  image(img,mouseX,mouseY);
+  image(img2,mouseX,mouseY);
+}
